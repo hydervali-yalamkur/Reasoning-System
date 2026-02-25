@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 ReasonOS
+# 🧠 Reasoning System
 
 **AI Agent Operating System with Governance**
 
@@ -18,7 +18,7 @@
 
 ## 📖 Overview
 
-**ReasonOS** is an **AI Agent Operating System** built for **safe, governed, and auditable AI execution**.  
+**Reasoning System** is an **AI Agent Operating System** built for **safe, governed, and auditable AI execution**.  
 It prevents hallucinations, enforces enterprise policies, and provides a verifiable audit trail for all AI-driven actions.
 
 Think of it as the **trust layer** between autonomous AI agents and your production systems.
@@ -30,9 +30,9 @@ Think of it as the **trust layer** between autonomous AI agents and your product
 - ❌ No audit trail for AI decisions  
 - ❌ Enterprises face financial risk from AI mistakes  
 
-### ✅ The ReasonOS Solution
+### ✅ The Reasoning System Solution
 
-ReasonOS implements **5 layers of protection** between AI agents and production codebases:
+Reasoning System implements **5 layers of protection** between AI agents and production codebases:
 
 1. **Semantic Graph** – Understands your entire codebase  
 2. **Hallucination Detector** – Validates AI-generated code  
@@ -70,8 +70,8 @@ ReasonOS implements **5 layers of protection** between AI agents and production 
 
 ```bash
 # Clone the repository
-git clone https://github.com/hydervali-yalamkur/ReasonOS.git
-cd ReasonOS
+git clone https://github.com/hydervali-yalamkur/Reasoning System.git
+cd Reasoning System
 
 # Run automated setup
 make setup
@@ -130,13 +130,13 @@ docker-compose down
 
 ## 🏗️ Architecture
 
-ReasonOS follows a **modular, service-oriented architecture** that separates AI reasoning from policy, governance, and execution.  
+Reasoning System follows a **modular, service-oriented architecture** that separates AI reasoning from policy, governance, and execution.  
 Every service is independently deployable and communicates via REST and WebSocket APIs.
 
 ```mermaid
 graph TB
     User["👤 Developer/AI Agent"]
-    Dashboard["📊 ReasonOS Dashboard"]
+    Dashboard["📊 Reasoning System Dashboard"]
     Approver["✅ Tech Lead/Approver"]
 
     User -->|Submit Task| Gateway["🔐 API Gateway (FastAPI)"]
@@ -231,7 +231,7 @@ graph TB
 
 ## 🧠 The 5 Protection Layers
 
-Each ReasonOS request moves through **five independent layers**, ensuring AI safety, traceability, and policy control.
+Each Reasoning System request moves through **five independent layers**, ensuring AI safety, traceability, and policy control.
 
 | Layer | Name | Technology | Purpose | Output |
 |:------|:-----|:-----------|:--------|:-------|
@@ -244,7 +244,7 @@ Each ReasonOS request moves through **five independent layers**, ensuring AI saf
 ### 🧩 Example Flow
 
 ```
-Developer: "ReasonOS, refactor this repo"
+Developer: "Reasoning System, refactor this repo"
     ↓
 ┌───────────────────────────────────┐
 │ Layer 1: Semantic Graph           │
@@ -291,16 +291,16 @@ Developer: "ReasonOS, refactor this repo"
 ### The Challenge
 **Task:** Rename `calculatePrice()` to `computeTotal()` across an entire JavaScript codebase (6 files, 47 usages).
 
-**Without ReasonOS (GitHub Copilot):**
+**Without Reasoning System (GitHub Copilot):**
 - ❌ Copilot updates 1 file only
 - ❌ Misses 46 other usages
 - ❌ Code breaks in production
 - ❌ No approval trail
 
-**With ReasonOS:**
+**With Reasoning System:**
 
 ```bash
-$ reasonos refactor rename \
+$ Reasoning System refactor rename \
   --old-name calculatePrice \
   --new-name computeTotal \
   --repo ./my-project
@@ -438,8 +438,8 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ```bash
 # Fork the repo
-git clone https://github.com/YOUR_USERNAME/ReasonOS.git
-cd ReasonOS
+git clone https://github.com/YOUR_USERNAME/Reasoning System.git
+cd Reasoning System
 
 # Create feature branch
 git checkout -b feature/my-feature
@@ -480,10 +480,10 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## 📞 Support & Community
 
-- **Issues:** [GitHub Issues](https://github.com/hydervali-yalamkur/ReasonOS/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/hydervali-yalamkur/ReasonOS/discussions)
-- **Email:** info@reasonos.ai
-- **Slack Community:** [Join our Slack](https://reasonos.slack.com)
+- **Issues:** [GitHub Issues](https://github.com/hydervali-yalamkur/Reasoning System/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/hydervali-yalamkur/Reasoning System/discussions)
+- **Email:** info@Reasoning System.ai
+- **Slack Community:** [Join our Slack](https://Reasoning System.slack.com)
 
 ---
 
@@ -512,9 +512,9 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 <div align="center">
 
-**Built with ❤️ by the ReasonOS Team**
+**Built with ❤️ by the Reasoning System Team**
 
-[⭐ Star us on GitHub](https://github.com/hydervali-yalamkur/ReasonOS) • [🐛 Report Bug](https://github.com/hydervali-yalamkur/ReasonOS/issues) • [✨ Request Feature](https://github.com/hydervali-yalamkur/ReasonOS/issues) • [📧 Email](mailto:info@reasonos.ai)
+[⭐ Star us on GitHub](https://github.com/hydervali-yalamkur/Reasoning System) • [🐛 Report Bug](https://github.com/hydervali-yalamkur/Reasoning System/issues) • [✨ Request Feature](https://github.com/hydervali-yalamkur/Reasoning System/issues) • [📧 Email](mailto:info@Reasoning System.ai)
 
 **Making AI agents safe, governed, and production-ready.** 🚀
 
