@@ -1,7 +1,7 @@
 #!/bin/bash
-# Azure App Service startup script for ReasonOS Backend
+# Azure App Service startup script for Reasoning System Backend
 
-echo "Starting ReasonOS Backend..."
+echo "Starting Reasoning System Backend..."
 
 # Upgrade pip
 python -m pip install --upgrade pip

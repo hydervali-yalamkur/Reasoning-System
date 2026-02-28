@@ -1,5 +1,5 @@
 """
-Test cases for ReasonOS API endpoints
+Test cases for Reasoning System API endpoints
 """
 
 import pytest
@@ -11,7 +11,7 @@ def test_root_endpoint(client: TestClient):
     response = client.get("/")
     assert response.status_code == 200
     data = response.json()
-    assert data["message"] == "Welcome to ReasonOS API"
+    assert data["message"] == "Welcome to Reasoning System API"
     assert "version" in data
 
 

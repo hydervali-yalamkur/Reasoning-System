@@ -1,4 +1,4 @@
-// Mock data for ReasonOS UI
+// Mock data for Reasoning System UI
 
 import { RiskLevel, CriticalityLevel } from '../types/enums';
 import type { AnalyzeResponse, QueryResponse } from '../types/schema';
@@ -15,7 +15,7 @@ export const mockQuery = {
       edges_created: 892,
       time_taken_seconds: 3.42
     },
-    graph_id: "C:\\Users\\sailo\\ReasonOS\\ReasonOS"
+    graph_id: "C:\\Users\\sailo\\Reasoning System\\Reasoning System"
   } as AnalyzeResponse,
   
   queryResponse: {
@@ -85,6 +85,6 @@ export const mockQuery = {
 
 // Root component props
 export const mockRootProps = {
-  defaultRepoPath: "C:\\Users\\sailo\\ReasonOS\\ReasonOS",
+  defaultRepoPath: "C:\\Users\\sailo\\Reasoning System\\Reasoning System",
   apiBaseUrl: "http://localhost:8000/api/v1"
 };

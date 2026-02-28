@@ -1,4 +1,4 @@
-# Python backend dependencies for ReasonOS
+# Python backend dependencies for Reasoning System
 
 # Web Framework
 fastapi==0.109.0

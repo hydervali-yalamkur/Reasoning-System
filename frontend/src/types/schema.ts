@@ -1,6 +1,6 @@
-// Type definitions for ReasonOS UI
+// Type definitions for Reasoning System UI
 
-// Type definitions for ReasonOS UI
+// Type definitions for Reasoning System UI
 
 // Enums matching backend
 export type RiskLevel = 'Low' | 'Medium' | 'High' | 'Critical' | 'Unknown';

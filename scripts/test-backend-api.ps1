@@ -1,11 +1,11 @@
 # Complete Backend API Test Script
-# Tests all 5 endpoints of ReasonOS backend
+# Tests all 5 endpoints of Reasoning System backend
 
 $baseUrl = "http://localhost:8000"
-$repoPath = "C:\Users\sailo\ReasonOS\ReasonOS\backend"
+$repoPath = "C:\Users\sailo\Reasoning System\Reasoning System\backend"
 
 Write-Host "`n╔════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "║   ReasonOS Backend API Test Suite     ║" -ForegroundColor Cyan
+Write-Host "║   Reasoning System Backend API Test Suite     ║" -ForegroundColor Cyan
 Write-Host "╚════════════════════════════════════════╝`n" -ForegroundColor Cyan
 
 # Test 1: Health Check

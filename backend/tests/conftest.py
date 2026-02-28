@@ -1,5 +1,5 @@
 """
-Test configuration and fixtures for ReasonOS backend
+Test configuration and fixtures for Reasoning System backend
 """
 
 import pytest

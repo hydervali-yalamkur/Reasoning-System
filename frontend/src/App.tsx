@@ -11,17 +11,17 @@ import {
   TrendingUp,
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { ErrorAlert } from './components/reasonos/ErrorAlert';
-import { GraphVisualization } from './components/reasonos/GraphVisualization';
-import { LoadingSpinner } from './components/reasonos/LoadingSpinner';
-import { ModuleCard } from './components/reasonos/ModuleCard';
-import { StatCard } from './components/reasonos/StatCard';
-import { reasonosAPI } from './services/reasonos-api';
+import { ErrorAlert } from './components/Reasoning System/ErrorAlert';
+import { GraphVisualization } from './components/Reasoning System/GraphVisualization';
+import { LoadingSpinner } from './components/Reasoning System/LoadingSpinner';
+import { ModuleCard } from './components/Reasoning System/ModuleCard';
+import { StatCard } from './components/Reasoning System/StatCard';
+import { Reasoning SystemAPI } from './services/Reasoning System-api';
 import type { AnalysisStatistics, QueryResponse } from './types/schema';
 import { formatNumber } from './utils/formatters';
 
 function App() {
-  const [repoPath, setRepoPath] = useState("C:\\Users\\sailo\\ReasonOS\\ReasonOS");
+  const [repoPath, setRepoPath] = useState("C:\\Users\\sailo\\Reasoning System\\Reasoning System");
   const [analyzing, setAnalyzing] = useState(false);
   const [analyzed, setAnalyzed] = useState(false);
   const [stats, setStats] = useState<AnalysisStatistics | null>(null);
@@ -46,7 +46,7 @@ function App() {
 
     try {
       console.log('Analyzing repository:', repoPath);
-      const data = await reasonosAPI.analyzeRepository(repoPath);
+      const data = await Reasoning SystemAPI.analyzeRepository(repoPath);
       console.log('Analysis response:', data);
       setStats(data.statistics);
       setAnalyzed(true);
@@ -67,7 +67,7 @@ function App() {
     try {
       console.log('Querying repository:', repoPath);
       console.log('Query:', query);
-      const data = await reasonosAPI.queryAI(repoPath, query);
+      const data = await Reasoning SystemAPI.queryAI(repoPath, query);
       console.log('Query response:', data);
       setResult(data);
 
@@ -112,7 +112,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Brain className="w-6 h-6 text-white" />
-            <span className="text-xl font-semibold text-white">ReasonOS</span>
+            <span className="text-xl font-semibold text-white">Reasoning System</span>
           </div>
           <div className="flex items-center gap-6 text-sm">
             <a href="#analyze" className="text-[#86868b] hover:text-white transition-colors">
@@ -155,7 +155,7 @@ function App() {
           </h1>
 
           <p className="text-xl md:text-2xl text-[#86868b] max-w-3xl mx-auto mb-12 animate-fade-in-up delay-100 leading-relaxed">
-            ReasonOS uses semantic graphs and AI to analyze code dependencies, assess risks, and
+            Reasoning System uses semantic graphs and AI to analyze code dependencies, assess risks, and
             provide intelligent insights for safer refactoring.
           </p>
 
@@ -447,7 +447,7 @@ function App() {
       {/* Footer */}
       <footer className="border-t border-white/10 mt-20">
         <div className="max-w-7xl mx-auto px-6 py-12 text-center text-[#86868b]">
-          <p>&copy; {new Date().getFullYear()} ReasonOS. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Reasoning System. All rights reserved.</p>
           <p className="mt-2 text-sm">
             An AI-powered semantic code analysis platform.
           </p>

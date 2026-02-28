@@ -1,7 +1,7 @@
 # Test script to verify both backend and frontend are working
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host " Testing ReasonOS Servers" -ForegroundColor Cyan
+Write-Host " Testing Reasoning System Servers" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 

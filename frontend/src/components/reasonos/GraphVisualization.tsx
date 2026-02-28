@@ -1,7 +1,7 @@
 import { instance } from '@viz-js/viz';
 import React, { useEffect, useRef, useState } from 'react';
 import { ZoomIn, ZoomOut, Maximize2, Minimize2, RotateCcw, Download } from 'lucide-react';
-import { reasonosAPI } from '../../services/reasonos-api';
+import { Reasoning SystemAPI } from '../../services/Reasoning System-api';
 
 interface GraphVisualizationProps {
   repoPath: string;
@@ -33,7 +33,7 @@ export const GraphVisualization: React.FC<GraphVisualizationProps> = ({
 
     try {
       // Fetch DOT format from backend
-      const dotData = await reasonosAPI.exportGraphDOT(repoPath, maxNodes, focusFunction);
+      const dotData = await Reasoning SystemAPI.exportGraphDOT(repoPath, maxNodes, focusFunction);
       setMetadata(dotData.metadata);
 
       // Render DOT to SVG using viz.js
@@ -58,7 +58,7 @@ export const GraphVisualization: React.FC<GraphVisualizationProps> = ({
 
   const handleDownloadDOT = async () => {
     try {
-      const dotData = await reasonosAPI.exportGraphDOT(repoPath, maxNodes, focusFunction);
+      const dotData = await Reasoning SystemAPI.exportGraphDOT(repoPath, maxNodes, focusFunction);
 
       // Create a blob from the DOT content
       const blob = new Blob([dotData.content], { type: 'text/plain' });

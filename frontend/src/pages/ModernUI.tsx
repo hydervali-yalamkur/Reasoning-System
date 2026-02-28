@@ -139,7 +139,7 @@ const ModernUI: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Brain className="w-6 h-6 text-white" />
-            <span className="text-xl font-semibold text-white">ReasonOS</span>
+            <span className="text-xl font-semibold text-white">Reasoning System</span>
           </div>
           <div className="flex items-center gap-6 text-sm">
             <a href="#analyze" className="text-[#86868b] hover:text-white transition-colors">Analyze</a>
@@ -171,7 +171,7 @@ const ModernUI: React.FC = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-[#86868b] max-w-3xl mx-auto mb-12 animate-fade-in-up delay-100 leading-relaxed">
-            ReasonOS uses semantic graphs and AI to analyze code dependencies, assess risks, and provide intelligent insights for safer refactoring.
+            Reasoning System uses semantic graphs and AI to analyze code dependencies, assess risks, and provide intelligent insights for safer refactoring.
           </p>
 
           <button
@@ -540,7 +540,7 @@ const ModernUI: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-2">
               <Brain className="w-6 h-6 text-white" />
-              <span className="text-xl font-semibold text-white">ReasonOS</span>
+              <span className="text-xl font-semibold text-white">Reasoning System</span>
             </div>
 
             <div className="flex items-center gap-6 text-sm text-[#86868b]">
@@ -552,7 +552,7 @@ const ModernUI: React.FC = () => {
             </div>
 
             <div className="flex items-center gap-6 text-sm">
-              <a href="https://github.com/Motupallisailohith/ReasonOS" target="_blank" rel="noopener noreferrer" className="text-[#86868b] hover:text-white transition-colors">
+              <a href="https://github.com/Motupallisailohith/Reasoning System" target="_blank" rel="noopener noreferrer" className="text-[#86868b] hover:text-white transition-colors">
                 GitHub
               </a>
               <a href="http://localhost:8000/docs" target="_blank" rel="noopener noreferrer" className="text-[#86868b] hover:text-white transition-colors">

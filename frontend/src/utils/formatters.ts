@@ -1,4 +1,4 @@
-// String formatting utilities for ReasonOS UI
+// String formatting utilities for Reasoning System UI
 
 import { RiskLevel, CriticalityLevel } from '../types/enums';
 

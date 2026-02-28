@@ -1,10 +1,10 @@
-// API service for ReasonOS backend
+// API service for Reasoning System backend
 
 import type { AnalyzeResponse, QueryResponse } from '../types/schema';
 
 const API_BASE_URL = 'http://localhost:8000/api/v1';
 
-export const reasonosAPI = {
+export const Reasoning SystemAPI = {
   async analyzeRepository(repoPath: string, forceRebuild = false): Promise<AnalyzeResponse> {
     const response = await fetch(`${API_BASE_URL}/graph/analyze`, {
       method: 'POST',

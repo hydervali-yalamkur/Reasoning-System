@@ -1,4 +1,4 @@
-# 🚀 ReasonOS Semantic Graph - Quick Start Guide
+# 🚀 Reasoning System Semantic Graph - Quick Start Guide
 
 ## Complete Demo in 5 Minutes
 
@@ -268,7 +268,7 @@ npm install reactflow tailwindcss
 
 ## 📊 Performance Benchmarks
 
-Based on testing with ReasonOS backend:
+Based on testing with Reasoning System backend:
 
 | Metric | Value | Notes |
 |--------|-------|-------|
@@ -303,14 +303,14 @@ Based on testing with ReasonOS backend:
 4. Show affected modules: Payment (critical), Auth (secondary)
 
 ### 5. Closing (30 seconds)
-*"This is Layer 1 of ReasonOS. The AI agent uses this to **understand** before it **acts**. No more broken refactors. No more missed dependencies. Complete code intelligence."*
+*"This is Layer 1 of Reasoning System. The AI agent uses this to **understand** before it **acts**. No more broken refactors. No more missed dependencies. Complete code intelligence."*
 
 ---
 
 ## 📁 Project Structure
 
 ```
-ReasonOS/
+Reasoning System/
 ├── backend/
 │   ├── app/
 │   │   ├── api/

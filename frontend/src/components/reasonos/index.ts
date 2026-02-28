@@ -1,4 +1,4 @@
-export { ReasonOSApp } from './ReasonOSApp';
+export { Reasoning SystemApp } from './Reasoning SystemApp';
 export { StatCard } from './StatCard';
 export { RiskBadge } from './RiskBadge';
 export { ModuleCard } from './ModuleCard';

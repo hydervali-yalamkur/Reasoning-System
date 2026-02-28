@@ -2,7 +2,7 @@ Write-Host "`nTesting Gemini AI Integration...`n" -ForegroundColor Cyan
 
 $testQuery = @{
     query = "Show me where processPayment is used"
-    repo_path = "C:\Users\sailo\ReasonOS\ReasonOS"
+    repo_path = "C:\Users\sailo\Reasoning System\Reasoning System"
     use_ai = $true
 }
 

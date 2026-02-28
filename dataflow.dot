@@ -1,4 +1,4 @@
-digraph ReasonOS_DataFlow {
+digraph Reasoning System_DataFlow {
   rankdir=LR;
   bgcolor=white;
 

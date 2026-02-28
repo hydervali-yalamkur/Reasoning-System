@@ -1,8 +1,8 @@
-# ReasonOS Semantic Graph - Start Both Servers
+# Reasoning System Semantic Graph - Start Both Servers
 # Run this after setup.ps1 has been completed
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host " Starting ReasonOS Semantic Graph Demo" -ForegroundColor Cyan
+Write-Host " Starting Reasoning System Semantic Graph Demo" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 

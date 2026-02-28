@@ -1,5 +1,5 @@
 """
-Configuration module for ReasonOS backend
+Configuration module for Reasoning System backend
 """
 
 from pydantic_settings import BaseSettings
@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     """Application settings"""
 
     # Application
-    app_name: str = "ReasonOS"
+    app_name: str = "Reasoning System"
     app_version: str = "1.0.0"
     environment: str = "development"
     debug: bool = True
@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     api_v1_prefix: str = "/api/v1"
 
     # Database
-    database_url: str = "postgresql://reasonos:dev_password@localhost:5432/reasonos_dev"
+    database_url: str = "postgresql://Reasoning System:dev_password@localhost:5432/Reasoning System_dev"
 
     # Redis
     redis_url: str = "redis://localhost:6379"

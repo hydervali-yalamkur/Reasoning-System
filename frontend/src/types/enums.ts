@@ -1,4 +1,4 @@
-// Enums for the ReasonOS UI
+// Enums for the Reasoning System UI
 
 export enum RiskLevel {
   CRITICAL = "CRITICAL",

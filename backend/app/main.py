@@ -1,4 +1,4 @@
-# ReasonOS Backend - FastAPI Application
+# Reasoning System Backend - FastAPI Application
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -13,7 +13,7 @@ from .api import graph
 
 # Create FastAPI app
 app = FastAPI(
-    title="ReasonOS API",
+    title="Reasoning System API",
     description="AI Agent Operating System with Governance - Semantic Graph, Hallucination Detection, Policy Engine",
     version="1.0.0",
     docs_url="/docs",
@@ -37,7 +37,7 @@ app.include_router(graph.router, prefix="/api/v1")
 async def root():
     """Root endpoint"""
     return {
-        "message": "Welcome to ReasonOS API",
+        "message": "Welcome to Reasoning System API",
         "version": "1.0.0",
         "docs": "/docs",
     }
@@ -50,7 +50,7 @@ async def health_check():
         status_code=200,
         content={
             "status": "healthy",
-            "service": "ReasonOS Backend",
+            "service": "Reasoning System Backend",
         },
     )
 
