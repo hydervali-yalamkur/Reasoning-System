@@ -11,12 +11,12 @@ import {
   TrendingUp,
 } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { ErrorAlert } from './components/Reasoning System/ErrorAlert';
-import { GraphVisualization } from './components/Reasoning System/GraphVisualization';
-import { LoadingSpinner } from './components/Reasoning System/LoadingSpinner';
-import { ModuleCard } from './components/Reasoning System/ModuleCard';
-import { StatCard } from './components/Reasoning System/StatCard';
-import { Reasoning SystemAPI } from './services/Reasoning System-api';
+import { ErrorAlert } from './components/reasoningsystem/ErrorAlert';
+import { GraphVisualization } from './components/reasoningsystem/GraphVisualization';
+import { LoadingSpinner } from './components/reasoningsystem/LoadingSpinner';
+import { ModuleCard } from './components/reasoningsystem/ModuleCard';
+import { StatCard } from './components/reasoningsystem/StatCard';
+import { ReasoningSystemAPI } from './services/reasoning-system-api';
 import type { AnalysisStatistics, QueryResponse } from './types/schema';
 import { formatNumber } from './utils/formatters';
 
@@ -46,7 +46,7 @@ function App() {
 
     try {
       console.log('Analyzing repository:', repoPath);
-      const data = await Reasoning SystemAPI.analyzeRepository(repoPath);
+      const data = await ReasoningSystemAPI.analyzeRepository(repoPath);
       console.log('Analysis response:', data);
       setStats(data.statistics);
       setAnalyzed(true);
@@ -67,7 +67,7 @@ function App() {
     try {
       console.log('Querying repository:', repoPath);
       console.log('Query:', query);
-      const data = await Reasoning SystemAPI.queryAI(repoPath, query);
+      const data = await ReasoningSystemAPI.queryAI(repoPath, query);
       console.log('Query response:', data);
       setResult(data);
 
